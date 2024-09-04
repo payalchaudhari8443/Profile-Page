@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Profile Section */
+.profile img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Skills Section */
+.skill-blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-block {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+}
+
+/* Projects Section */
+#projects {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-info h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.project-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.project-info a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
